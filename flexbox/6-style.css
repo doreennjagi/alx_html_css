@@ -208,7 +208,10 @@ html{line-height:1.15;-webkit-text-size-adjust:100%}body{margin:0}main{display:b
     padding: 0;
     list-style: none;
     text-align: center;
+    display: flex;
+
   }
+   ;
   
   .nav .nav-item {
     font-family: var(--nav-item-font-family);
@@ -216,13 +219,13 @@ html{line-height:1.15;-webkit-text-size-adjust:100%}body{margin:0}main{display:b
     font-size: var(--nav-item-font-size);
     letter-spacing: var(--nav-item-letter-spacing);
     
-    margin: var(--nav-item-margin);
+    
   }
   .nav-item + .nav-item
   margin: var(--nav-item-margin);
   
   .nav .nav-link {
-    display: block;
+    display: flex;
     padding: 0.5rem 0;
     position: relative;
   }
