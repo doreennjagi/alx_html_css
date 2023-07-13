@@ -216,11 +216,11 @@ html{line-height:1.15;-webkit-text-size-adjust:100%}body{margin:0}main{display:b
     font-weight: var(--nav-item-font-weight);
     font-size: var(--nav-item-font-size);
     letter-spacing: var(--nav-item-letter-spacing);
-    margin: var(.nav .nav-item);
+    
   }
   
   .nav .nav-link {
-    display: block;
+    display: flex;
     padding: 0.5rem 0;
     position: relative;
   }
