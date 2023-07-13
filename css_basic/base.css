@@ -1,16 +1,9 @@
-/* Importing webfonts */
-/* (If you're learning CSS, you should disregard that) */
-
-@import url(https://fonts.googleapis.com/css?family=Yeseva+One);
-@import url(https://fonts.googleapis.com/css?family=Josefin+Sans:400,700,700italic,400italic);
-
-
-/* CSS reset rules */
+/* CSS reset rules *
 
 html, body {
 	height: 100%;
 	min-height: 100%;
-}
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
