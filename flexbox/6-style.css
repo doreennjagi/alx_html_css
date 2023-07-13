@@ -73,7 +73,7 @@ html{line-height:1.15;-webkit-text-size-adjust:100%}body{margin:0}main{display:b
     --nav-item-font-size: var(--font-size-medium);
     --nav-item-letter-spacing: .04rem;
     --nav-item-display: inline-block;
-    --nav-item-margin: 0 0 0 2rem ;
+    --nav-item-margin: 0 0 0 2rem;
     --nav-item-link-hover: var(--color-white);
   
     /** BUTTON **/
@@ -208,7 +208,6 @@ html{line-height:1.15;-webkit-text-size-adjust:100%}body{margin:0}main{display:b
     padding: 0;
     list-style: none;
     text-align: center;
-    display:flex;
   }
   
   .nav .nav-item {
@@ -217,10 +216,13 @@ html{line-height:1.15;-webkit-text-size-adjust:100%}body{margin:0}main{display:b
     font-size: var(--nav-item-font-size);
     letter-spacing: var(--nav-item-letter-spacing);
     
+    margin: var(--nav-item-margin);
   }
+  .nav-item + .nav-item
+  margin: var(--nav-item-margin);
   
   .nav .nav-link {
-    display: flex;
+    display: block;
     padding: 0.5rem 0;
     position: relative;
   }
