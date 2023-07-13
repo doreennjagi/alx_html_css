@@ -1,0 +1,1 @@
+Implementation of a design is just simply applying a design of whatever purpose u wat a web designed for.
