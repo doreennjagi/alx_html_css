@@ -1,0 +1,152 @@
+/*header section**/
+body{
+    margin:0px;
+    margin-top: 0px;
+}
+.image-section{
+    background-image: url(./images/headphones_hero_1.png.jpg);
+    background-size: cover;
+}
+
+.header-section .container{
+    display:flex;
+    justify-content: flex-end;
+    color: white;
+    
+}
+div.logo{
+    padding-top: 20px;
+}
+.link1{
+    margin:20px;
+    padding:10px;
+    text-align: center;
+    color:whitesmoke;
+    text-decoration: none;
+
+}
+.link2{
+    margin:20px;
+    padding:10px;
+    text-align: center;
+    color:whitesmoke;
+    text-decoration: none;
+}
+
+.link3{
+    margin:20px;
+    padding:10px;
+    text-align: center;
+    color:whitesmoke;
+    text-decoration: none;
+    margin-right: 70px;
+}
+.logo{
+    margin-left: 50px;
+    margin-top: 20px;
+}
+/*action section***/
+.first-section{
+    display: flex;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    padding-top: 200px;
+    text-align: center;
+}
+button{
+        padding:10px;
+        margin: 30px;
+        background-color:red;
+        color: #fff;
+        border-radius: 10px;
+        border: 1px solid black;
+    }
+
+.aside{
+    padding-right: 200px;
+    padding-left: 200px;
+    padding-bottom: 200px;
+}
+
+/*****what we do section******/
+.second-section .section-header{
+    
+    text-align: center;
+    padding: 50px;
+    padding-left:350px;
+    padding-right: 350px;
+    font-family:Georgia, 'Times New Roman', Times, serif
+
+}
+ul{
+    display:flex;
+    /*flex-direction: column;****/
+    list-style-type: none;
+    
+    
+    justify-content: space-between;
+}
+ul li{
+    padding: 30px;
+}
+/**our results section*******/
+.third-section .section-header{
+    
+    text-align: center;
+    padding: 50px;
+    padding-left:350px;
+    padding-right: 350px;
+    font-family:Georgia, 'Times New Roman', Times, serif
+
+}
+
+.third-section{
+    background-image: url(./images/headphones_hero_2.png.jpg);
+}
+ul.results{
+    justify-content: center;
+    padding-top: 30px;
+}
+ul.results li{
+    padding:50px
+}
+/**fourth section****/
+.fourth-section{
+    text-align: center;
+}
+.fourth-section .section-header{
+    padding:100px;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+form{
+    display:flex;
+    flex-direction: column;
+    height:fit-content;
+    width:fit-content;
+    margin-left: 550px;
+    
+}
+form div{
+    padding-bottom: 50px;
+}
+.action{
+    padding-bottom: 50px;
+}
+/** footer*****/
+footer{
+    background-color: black;
+    color:antiquewhite;
+}
+footer div.container{
+    display:flex;
+    justify-content: flex-end;
+    padding-right: 50px;
+}
+ footer div.remarks{
+    text-align: center;
+    padding:60px;
+
+}
+
+    

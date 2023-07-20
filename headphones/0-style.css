@@ -2,13 +2,10 @@
 body{
     margin:0px;
     margin-top: 0px;
-}
-.image-section{
     background-image: url(./images/headphones_hero_1.png.jpg);
     background-size: cover;
     background-position: center;
-}
-
+    }
 .header-section .container{
     display:flex;
     justify-content: flex-end;
@@ -57,12 +54,13 @@ div.logo{
     padding-top: 200px;
     text-align: center;
 }
-.button{
-    padding-top: 40px;
-    padding-bottom: 100px;
-    color: #000;
-
-
+button{
+    padding:10px;
+    margin: 30px;
+    background-color:red;
+    color: #fff;
+    border-radius: 10px;
+    border: 1px solid black;
 }
 .aside{
     padding-right: 200px;
